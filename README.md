@@ -18,26 +18,23 @@ The challenge is part of **10 Academy’s Artificial Intelligence Mastery Progra
 
 ## 📁 **Repository Structure**
 ├── .vscode/
-│ └── settings.json
+│   └── settings.json
 ├── .github/
-│ └── workflows/
-│ └── unittests.yml
-├── data/
-│ └── news.csv
-├── notebooks/
-│ ├── EDA.ipynb
-│ ├── indicators.ipynb
-│ └── correlation.ipynb
-├── src/
-│ ├── init.py
-│ └── utils.py
-├── scripts/
-│ └── preprocessing.py
-├── tests/
-│ └── test_utils.py
+│   └── workflows/
+│       └── unittests.yml
+├── .gitignore
 ├── requirements.txt
 ├── README.md
-└── main.py
+├── src/
+│   ├── __init__.py
+├── notebooks/
+│   ├── __init__.py
+│   └── README.md
+├── tests/
+│   ├── __init__.py
+└── scripts/
+    ├── __init__.py
+    └── README.md
 
 yaml
 Copy code
